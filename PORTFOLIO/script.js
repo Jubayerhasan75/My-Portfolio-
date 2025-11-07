@@ -61,7 +61,7 @@ function Portfolio() {
         createElement("h1", null, "Hi, I'm Jubayer Hasan"),
         createElement("p", null, "Full-stack developer passionate about building beautiful and functional websites."),
         createElement("div", { className: "button-group" },
-          createElement(Button, { href: "mailto:2022-60-042@std.ewubd.edu", icon: "mail", text: "Email" }),
+          createElement(Button, { href: "mailto:jubayerhasanrohan@gmail.com", icon: "mail", text: "Email" }),
           createElement(Button, { href: "https://www.linkedin.com/in/jubayer-hasan-196088267/", icon: "linkedin", text: "LinkedIn" }),
           createElement(Button, { href: "https://www.facebook.com/jubayer.hasan.982/", icon: "facebook", text: "Facebook" }),
           createElement(Button, { href: "https://github.com/Jubayerhasan75", icon: "github", text: "GitHub" })

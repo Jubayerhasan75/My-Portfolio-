@@ -3,9 +3,9 @@ const { render } = ReactDOM;
 
 const projects = [
   {
-    name: "Hospital Management System",
-    link: "https://github.com/Jubayerhasan75/Hospital-management-System",
-    desc: "A full-stack MERN hospital system with patient, doctor, and admin modules, appointment & billing features."
+    name: "Johan'S Hub Ecommerce MERN",
+    link: "https://johan-s-hub-ecommerce-mern.vercel.app/",
+    desc: "A full-stack MERN e-commerce platform built for a T-shirt business. A complete admin panel with full CRUD operations for products and orders."
   },
   {
     name: "DNA Sequence Simulation",
@@ -13,14 +13,14 @@ const projects = [
     desc: "Digital simulation using Proteus to demonstrate logic gates and DNA sequencing mechanisms."
   },
   {
-    name: "Coffeeshop Management System",
-    link: "https://github.com/Jubayerhasan75/Coffeeshop-Management-System",
-    desc: "C-based terminal project that handles orders, menus, and staff-side controls for a coffee shop."
+    name: "File Manage Pro",
+    link: "https://github.com/Jubayerhasan75/File-Manager-Pro",
+    desc: "A PHP-based web app for managing files and folders, with secure login, image previews."
   },
   {
-    name: "Pharmacy Management System",
-    link: "https://github.com/Jubayerhasan75/Pharmacy-Management",
-    desc: "A Java console application for managing pharmacy stock, search, sales, and billing using OOP."
+    name: "Hospital Management System",
+    link: "https://github.com/Jubayerhasan75/Hospital-management-System",
+    desc: "A full-stack system built with the MERN stack. Includes patient, doctor, and admin roles with medicine features."
   }
 ];
 

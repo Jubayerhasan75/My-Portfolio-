@@ -18,9 +18,9 @@ const projects = [
     desc: "A PHP-based web app for managing files and folders, with secure login, image previews."
   },
   {
-    name: "Hospital Management System",
-    link: "https://github.com/Jubayerhasan75/Hospital-management-System",
-    desc: "A full-stack system built with the MERN stack. Includes patient, doctor, and admin roles with medicine features."
+    name: "কি হতো যদি?",
+    link: "https://ki-hoto-jodi.vercel.app/",
+    desc: "A Bengali web app to calculate habit impact."
   }
 ];
 
@@ -103,3 +103,4 @@ createElement("section", { className: "qual-skill-section" },
 }
 
 render(createElement(Portfolio), document.getElementById("root"));
+

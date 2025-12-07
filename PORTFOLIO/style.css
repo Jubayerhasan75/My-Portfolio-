@@ -130,14 +130,13 @@ p {
   margin-bottom: 1.5rem;
 }
 
-/* === VIEW PROJECT BUTTON (Project Card Specific) === */
-/* Ei style-ta shudhu .card-er vitorer .view-btn-ke override korbe */
+
 .card .view-btn {
-  background-color: #7e22ce; /* Screenshot-er purple color */
+  background-color: #7e22ce; 
   color: white;
   border: 1px solid #7e22ce;
   padding: 8px 16px; /* 0.5rem 1rem */
-  font-weight: normal; /* Outline button-er sathe difference */
+  font-weight: normal;
 }
 
 .card .view-btn:hover {
@@ -336,3 +335,4 @@ p {
     gap: 1.5rem;
   }
 }
+

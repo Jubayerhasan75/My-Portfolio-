@@ -13,9 +13,9 @@ const projects = [
     desc: "Digital simulation using Proteus to demonstrate logic gates and DNA sequencing mechanisms."
   },
   {
-    name: "File Manage Pro",
-    link: "https://github.com/Jubayerhasan75/File-Manager-Pro",
-    desc: "A PHP-based web app for managing files and folders, with secure login, image previews."
+    name: "School Website",
+    link: "https://github.com/Jubayerhasan75/School_Website",
+    desc: "A complete School Management System for Shishu Bidya Niketon, featuring an admin dashboard, student & teacher management, and notice board, built with PHP and MySQL."
   },
   {
     name: "কি হতো যদি?",

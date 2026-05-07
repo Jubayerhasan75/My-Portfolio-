@@ -8,9 +8,9 @@ const projects = [
     desc: "A full-stack MERN e-commerce platform built for a T-shirt business. A complete admin panel with full CRUD operations for products and orders."
   },
   {
-    name: "DNA Sequence Simulation",
-    link: "https://github.com/Jubayerhasan75/DNA-Sequence-Simulation",
-    desc: "Digital simulation using Proteus to demonstrate logic gates and DNA sequencing mechanisms."
+    name: "WorkFlow App",
+    link: "http://workflow-app.lovestoblog.com/",
+    desc: "WorkFlow is a premium, minimal, and highly efficient daily task management application."
   },
   {
     name: "School Website",

@@ -25,6 +25,12 @@ const projects = [
 ];
 
 function Button({ href, icon, text }) {
+  useEffect(() => {
+    if (window.lucide) {
+      window.lucide.createIcons();
+    }
+  }, []);
+
   return createElement(
     "a",
     {
@@ -39,16 +45,9 @@ function Button({ href, icon, text }) {
 }
 
 function Portfolio() {
-  useEffect(() => {
-    if (window.lucide) {
-      window.lucide.createIcons();
-    }
-  }, []);
-
   return createElement(
     "main",
     {},
-    // Header
     createElement(
       "section",
       { className: "header" },
@@ -71,8 +70,6 @@ function Portfolio() {
         createElement("img", { src: "assets/developer.png", alt: "Developer", className: "dev-img" })
       )
     ),
-
-    // Projects
     createElement("section", { className: "projects" },
       createElement("h2", null, "Projects"),
       createElement("div", { className: "project-grid" },
@@ -85,22 +82,17 @@ function Portfolio() {
         )
       )
     ),
-
-// Side-by-side Qualifications & Skills (no card box)
-createElement("section", { className: "qual-skill-section" },
-  createElement("div", { className: "qs-column" },
-    createElement("h2", null, "Qualifications"),
-    createElement("a", { href: "education.html", className: "view-btn" }, "View Qualifications")
-  ),
-  createElement("div", { className: "qs-column" },
-    createElement("h2", null, "Skills"),
-    createElement("a", { href: "skills.html", className: "view-btn" }, "View Skills")
-  )
-)
-
-
+    createElement("section", { className: "qual-skill-section" },
+      createElement("div", { className: "qs-column" },
+        createElement("h2", null, "Qualifications"),
+        createElement("a", { href: "education.html", className: "view-btn" }, "View Qualifications")
+      ),
+      createElement("div", { className: "qs-column" },
+        createElement("h2", null, "Skills"),
+        createElement("a", { href: "skills.html", className: "view-btn" }, "View Skills")
+      )
+    )
   );
 }
 
 render(createElement(Portfolio), document.getElementById("root"));
-

@@ -10,7 +10,7 @@ const projects = [
 
     name: "Johan'S Hub Ecommerce MERN",
 
-    link: "https://johan-s-hub-ecommerce-mern.vercel.app/",
+    link: "https://johans-hub-tau.vercel.app/",
 
     desc: "A full-stack MERN e-commerce platform built for a T-shirt business. A complete admin panel with full CRUD operations for products and orders."
 
